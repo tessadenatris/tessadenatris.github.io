@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h1>Contact</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="overmij.html">Over mij</a></li>
+            <li><a href="index.html">Mijn werk</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="burgermenu">
+            <div class="lijn1"></div>
+            <div class="lijn2"></div>
+            <div class="lijn3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <h2 class="tekst">Als je nog  vragen hebt, vul dan dit formulier in!</h2>
+
+    <section class="formulier">
+        <form action="bedankt.html">
+            <fieldset>
+                <legend>Contactgegevens</legend>
+                <label for="name">Voornaam</label>
+                <input class="focus" id="name" required type="text">
+                <label for="surname">Achternaam</label>
+                <input class="focus" id="surname" required type="text">
+                <label for="email">E-mail</label>
+                <input class="focus" id="mail" type="email" required>
+                <p class="feedback">Dit deel van het formulier is goed ingevuld!</p>
+                <label for="gebortedatum">Geboortedatum</label>
+                <input class="focus" id="geboortedatum" required type="date">
+            </fieldset>
+                
+                <fieldset>
+                <legend>Reden voor contact</legend>
+                    <label for="optie1"> Ik heb een vraag<input id="optie1" type="checkbox"> </label>  
+                    <label for="optie2"> Ik ben geïntreseerd<input id="optie2" type="checkbox"> </label>
+                     <label for="optie3"> Ik wil samenwerken<input id="optie3" type="checkbox"> </label>        
+                </fieldset>
+                    
+                <fieldset>
+                    <legend>Vraag of opmerking</legend>
+                    <label for="question">Onderwerp vraag</label>
+                    <input class="focus" id="question" required type="text">
+                    <label for="message">Bericht</label>
+                    <textarea class="focus" required id="message" placeholder="Schrijf hier je opmerking of vraag"></textarea>
+                    <p class="feedback">Dit deel van het formulier is goed ingevuld!</p>
+                </fieldset>
+                <button>Verstuur</button> 
+        </form>
+    </section>
+
+   </main>
+    <script src="Java/portfolio.js"></script>
+</body>
+
+</html>
