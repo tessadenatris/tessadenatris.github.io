@@ -222,13 +222,9 @@ h2 {
 
 
 /*-----------------------------------------------------------------------------------------------VID PAGINA-------------------------------*/
-.grdvid{
-    display: grid;
-        grid-template-columns: 1fr 1fr;
-        
-}
+
 .vidfoto {
-    width: 30em;
+    width: 100%;
 }
 
 @media (min-width: 32em) {
