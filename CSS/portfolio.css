@@ -222,21 +222,13 @@ h2 {
 
 
 /*-----------------------------------------------------------------------------------------------VID PAGINA-------------------------------*/
-
-.tekstvid {
-    padding-left: 2em;
-    padding-right: 2em;
+.grdvid{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        
 }
-
 .vidfoto {
     width: 30em;
-
-}
-
-h3,
-h4 {
-    padding-left: 2em;
-    font-weight: normal;
 }
 
 @media (min-width: 32em) {
@@ -294,13 +286,14 @@ h4 {
     }
 
 }
+
 /*----------------------------------------------------------------------------------------------SNOOZY PAGINA-----------------------------*/
 .grid{
     display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 0.2em;
+        grid-column-gap: 0em;
         padding-left: 2em;
-        padding-right: 2em;
+        padding-right: 2.5em;
         padding-top: 2em;
 }
 .fotosnoozy{
@@ -317,7 +310,11 @@ h4 {
 .fade:not(.show) {
     opacity: 1;
 }
-
+.tekstsnoozy {
+    padding-right: 2em;
+    font-size: 1.2em;
+    padding-left: 1em;
+}
 
 
 
